@@ -1,15 +1,14 @@
 import * as React from 'react'
 
 export interface HelloProps { 
+  color?: string,
   who: string
 }
 
-// 'HelloProps' describes the shape of props.
-// State is never set so we use the '{}' type.
+
 export class Hello extends React.Component<HelloProps, {}> {
   render() {
-      // equals to 
-      // return React.createElement('h1', {}, 'Hello ' + this.props.who + '!')
-      return <h1>Hello {this.props.who}!</h1>
+    const color = this.props.color || '#111111'
+      return <h1 style={{color}}>Hello {this.props.who}</h1>
   }
 }

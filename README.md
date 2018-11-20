@@ -18,3 +18,10 @@ This is a repository to demonstrate some basic use cases for React.
 * `src/index.tsx` loads `Hello.tsx` and puts it into the container `example`
 * The container `<div id="example" />` can be found in `index.html`
 * To run the page just use `npm run build` and open the `index.html` in a browser
+
+## State
+
+* Run `git checkout tags/state`
+* You see a new folder `pages`, that includes the file `FirstPage.tsx`
+* `FirstPage` composes the components `Hello`, `Switch` and some default tags (`div`, `p`)
+* `Switch` provides its own state, that will be changed on a clickEvent and can be bootstrapped by a property
