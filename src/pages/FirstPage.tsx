@@ -5,6 +5,7 @@ import { NestedCSSProperties } from 'typestyle/lib/types'
 
 import { Hello } from '../components/Hello'
 import { Switch } from '../components/Switch'
+import { TicTacToe } from '../components/TicTacToe'
 
 const divStyleObj : React.CSSProperties = { fontSize: '25px' }
 /* const fancyStyleObj: NestedCSSProperties = {
@@ -46,6 +47,7 @@ export class FirstPage extends React.Component<{}, {fact: string}> {
       <div className={factStyle}>
         Random fact: {this.state.fact}
       </div>
+      <TicTacToe />
     </>
   }
 }
