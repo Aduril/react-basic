@@ -25,3 +25,8 @@ This is a repository to demonstrate some basic use cases for React.
 * You see a new folder `pages`, that includes the file `FirstPage.tsx`
 * `FirstPage` composes the components `Hello`, `Switch` and some default tags (`div`, `p`)
 * `Switch` provides its own state, that will be changed on a clickEvent and can be bootstrapped by a property
+
+## LifeCycle
+
+* Run `git checkout tags/lifecycle`
+* `FirstPage` was enhanced to load a string from [numbersapi.com](http://numbersapi.com/) and use it within `componentDidMount()`
