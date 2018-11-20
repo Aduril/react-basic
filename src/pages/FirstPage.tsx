@@ -1,9 +1,25 @@
 import * as fetch from 'isomorphic-fetch'
 import * as React from 'react'
-import { Hello } from '../components/Hello';
-import { Switch } from '../components/Switch';
+import { style } from 'typestyle'
+import { NestedCSSProperties } from 'typestyle/lib/types'
 
+import { Hello } from '../components/Hello'
+import { Switch } from '../components/Switch'
 
+const divStyleObj : React.CSSProperties = { fontSize: '25px' }
+/* const fancyStyleObj: NestedCSSProperties = {
+  $nest: {
+    '&:hover': {
+      color: 'red'
+    }
+  },
+  color: 'blue',
+  fontWeight: 700,
+  transition: 'color .8s',
+} */
+const divStyle = style(divStyleObj)
+const factStyle = style(divStyleObj)
+// const factStyle = style(divStyleObj, fancyStyleObj)
 
 export class FirstPage extends React.Component<{}, {fact: string}> {
   state = {
@@ -23,11 +39,11 @@ export class FirstPage extends React.Component<{}, {fact: string}> {
       <Switch />
       <Switch on={true}/>
       <Switch on={false}/>
-      <div>
+      <div className={divStyle}>
         <Hello who={'again'} />
         <p>This is basically like writing html, but more like programming it</p>
       </div>
-      <div>
+      <div className={factStyle}>
         Random fact: {this.state.fact}
       </div>
     </>

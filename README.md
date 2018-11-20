@@ -30,3 +30,9 @@ This is a repository to demonstrate some basic use cases for React.
 
 * Run `git checkout tags/lifecycle`
 * `FirstPage` was enhanced to load a string from [numbersapi.com](http://numbersapi.com/) and use it within `componentDidMount()`
+
+## Typestyle
+
+* Run `git checkout tags/typestyle`
+* First page was enhanced for several style classes, which can be toggled
+* typestyle can be used for css specific behaviors, like transitions, media queries, etc...
