@@ -37,9 +37,13 @@ This is a repository to demonstrate some basic use cases for React.
 * First page was enhanced for several style classes, which can be toggled
 * typestyle can be used for css specific behaviors, like transitions, media queries, etc...
 
-## Messy example
+## Messy Example
 
 * Run `git checkout tags/tictactoe-messy`
 * We see a messy example of a TicTacToe game
 * see it as a bad example
 
+## Better Example
+
+* Run `git checkout tag/tictactoe`
+* is an example of a somewhat larger project
