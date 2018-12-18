@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --config ./config/webpack.dev.config.js",
     "dev:ssr": "node ./config/dev-ssr.js",
     "test": "echo 'TODO'",
-    "deploy": "echo 'nothing to deploy here"
+    "deploy": "echo 'nothing to deploy here'"
   },
   "repository": {
     "type": "git",
