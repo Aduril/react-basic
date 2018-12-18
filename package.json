@@ -6,7 +6,9 @@
   "scripts": {
     "build": "rm -Rf dist && webpack --config ./config/webpack.prod.config.js",
     "dev": "webpack-dev-server --config ./config/webpack.dev.config.js",
-    "dev:ssr": "node ./config/dev-ssr.js"
+    "dev:ssr": "node ./config/dev-ssr.js",
+    "test": "echo 'TODO'",
+    "deploy": "echo 'nothing to deploy here"
   },
   "repository": {
     "type": "git",
