@@ -2,7 +2,7 @@
 
 This is a repository to demonstrate some basic use cases for React. It was previously shown at IT Carrer Night 2018, Rostock and was enabled by [Gecko](https://www.gecko.de).
 
-**Special Thanks** to [@Harper](https://github.com/Harper04) for his guidance and help with the major problem of this boilerplate. :)
+**Special Thanks** to [@Harper](https://github.com/Harper04) for his guidance and help with the major problem of this boilerplate.
 
 ## Current state
 
